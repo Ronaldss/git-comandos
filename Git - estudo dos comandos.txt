@@ -31,6 +31,10 @@ cd.. --> voltar um diretório
 git log --> mostra o autor e a data do ultimo commit
 git log --decorate --> Idem com mais 
 git log --author="nome do autor"
+git shortlog --> verificar quantos contribuintes existem. Quem e quantos commites fizeram.
+git shortlog --> Idem, simplifica a saida mostrando apenas a quantidade de commits e o nome do author.
+git log --graph --> mostra em forma grafica as mudanças
+git show (hash que tem dentro do 'got log') --> consegue vê ixatamente qual foi a modificação no arquivo.
 ------------------------------------------------------------------------------
 
 :::::::::::: Comandos mais usados :::::::::::: 

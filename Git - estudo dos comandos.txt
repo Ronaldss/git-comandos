@@ -30,6 +30,7 @@ ls --> idem
 cd.. --> voltar um diretório
 git log --> mostra o autor e a data do ultimo commit
 git log --decorate --> Idem com mais 
+git log --author="nome do autor"
 ------------------------------------------------------------------------------
 
 :::::::::::: Comandos mais usados :::::::::::: 

@@ -6,7 +6,8 @@ Estados de um arquivo no Git -->
 2 - unmodified (não modificado)
 3 - modified (arquivo modificado)
 4 - staged (estágio) que é a área onde os arquivos que irão fechar uma versão 
-                     estarão aguardando.
+                     estarão aguardando. E o staged só ficará disponível depois
+                     que fizer o 'git add (nome do arquivo)'
 
 :::::::::::: Comandos de configuração :::::::::::: 
 

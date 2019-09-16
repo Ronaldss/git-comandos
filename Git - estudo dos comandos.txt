@@ -1,0 +1,40 @@
+=== GIT === 
+
+Estados de um arquivo no Git -->
+
+1 - Untracked (não marcado)
+2 - unmodified (não modificado)
+3 - modified (arquivo modificado)
+4 - staged (estágio) que é a área onde os arquivos que irão fechar uma versão 
+                     estarão aguardando.
+
+:::::::::::: Comandos de configuração :::::::::::: 
+
+Configurando nome de usuário:
+git config --global user.name "nome"
+
+Configurando e-mail:
+git config --global user.email "ronald_ss@outlook,com"
+
+Configurando editor preferido:
+git config --global core.editor nomeAtalhoDoEditor
+-----------------------------------------------------------------------------
+ ::::::::::::::::::: Comandos básicos ::::::::::::::::::: 
+
+mkdir --> criar pasta
+cd --> acesso a diretórios
+git init -->  inicializa repositório  e verifica modificações constantemente
+ls-la --> mostra os diretórios referentes e suas permissões
+ls --> idem
+cd.. --> voltar um diretório
+------------------------------------------------------------------------------
+
+:::::::::::: Comandos mais usados :::::::::::: 
+
+git status --> reportar a situação do repositório no momento
+git add --> adicionar este arquivo dentro do git
+git commit -m "alguma observação"
+
+-------------------
+primeira alteração
+-------------------

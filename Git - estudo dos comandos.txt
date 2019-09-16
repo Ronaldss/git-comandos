@@ -28,6 +28,8 @@ git init -->  inicializa repositório  e verifica modificações constantemente
 ls-la --> mostra os diretórios referentes e suas permissões
 ls --> idem
 cd.. --> voltar um diretório
+git log --> mostra o autor e a data do ultimo commit
+git log --decorate --> Idem com mais 
 ------------------------------------------------------------------------------
 
 :::::::::::: Comandos mais usados :::::::::::: 

@@ -42,7 +42,8 @@ git show (hash que tem dentro do 'got log') --> consegue vê ixatamente qual foi
 
 git status --> reportar a situação do repositório no momento
 git add --> adicionar este arquivo dentro do git
-git commit -m "alguma observação"
+git commit -m "alguma observação" --> para commitar
+git commit -am --> para adicionar e comitar ao mesmo tempo, funciona apenas para arquivos que ja haviam sido adicionados antes.
 git diff --> possível verificar alterações no arquivo antes do commit
 git diff --> verifica quais arquivos foras alterados
 git checkout --> reseta o arquivo para antes da ultima edição

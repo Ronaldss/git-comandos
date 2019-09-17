@@ -43,9 +43,13 @@ git status --> reportar a situação do repositório no momento
 git add --> adicionar este arquivo dentro do git
 git commit -m "alguma observação"
 git diff --> possível verificar alterações no arquivo antes do commit
+git diff --> verifica quais arquivos foras alterados
+
+------------------------------------------------------------------------------
 
 -------------------
 nenhuma alteração
 primeira alteração
 segundda alteração
+terceira alteração
 -------------------

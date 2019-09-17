@@ -46,6 +46,7 @@ git commit -m "alguma observação"
 git diff --> possível verificar alterações no arquivo antes do commit
 git diff --> verifica quais arquivos foras alterados
 git checkout --> reseta o arquivo para antes da ultima edição
+git reset HEAD (nome do arquivo) --> caso queira desistir da última alteração que ja teenha sido adicionada ao git. Feito o 'git add .'
 
 ------------------------------------------------------------------------------
 

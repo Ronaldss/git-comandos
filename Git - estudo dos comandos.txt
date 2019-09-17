@@ -42,7 +42,10 @@ git show (hash que tem dentro do 'got log') --> consegue vê ixatamente qual foi
 git status --> reportar a situação do repositório no momento
 git add --> adicionar este arquivo dentro do git
 git commit -m "alguma observação"
+git diff --> possível verificar alterações no arquivo antes do commit
 
 -------------------
+nenhuma alteração
 primeira alteração
+segundda alteração
 -------------------

@@ -55,6 +55,7 @@ git reset HEAD (nome do arquivo) --> caso queira desistir da última alteração
 nenhuma alteração
 primeira alteração
 segundda alteração
-terceira alteração.
+terceira alteração
 quarta alteração
+quinta alteração
 -------------------

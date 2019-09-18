@@ -44,8 +44,10 @@ git status --> reportar a situação do repositório no momento
 git add --> adicionar este arquivo dentro do git
 git commit -m "alguma observação" --> para commitar
 git commit -am --> para adicionar e comitar ao mesmo tempo, funciona apenas para arquivos que ja haviam sido adicionados antes.
+
 git diff --> possível verificar alterações no arquivo antes do commit
 git diff --name-only --> verifica quais arquivos foras alterados
+
 git checkout (nome do arquivo)--> reseta o arquivo para antes da ultima edição
 git reset HEAD (nome do arquivo) --> caso queira desistir da última alteração que ja teenha sido adicionada ao git. Feito o 'git add .'
 

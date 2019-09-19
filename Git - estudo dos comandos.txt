@@ -51,6 +51,9 @@ git diff --name-only --> verifica quais arquivos foras alterados
 git checkout (nome do arquivo)--> reseta o arquivo para antes da ultima edição
 git reset HEAD (nome do arquivo) --> caso queira desistir da última alteração que ja teenha sido adicionada ao git. Feito o 'git add .'
 
+git reset --soft --mixed --hard --> comando para retornar de um comite feito. funciona de 3 formas diferente
+git reset --sotft (nome do arquivo) -->
+
 ------------------------------------------------------------------------------
 
 -------------------

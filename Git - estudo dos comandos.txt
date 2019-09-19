@@ -52,7 +52,9 @@ git checkout (nome do arquivo)--> reseta o arquivo para antes da ultima edição
 git reset HEAD (nome do arquivo) --> caso queira desistir da última alteração que ja teenha sido adicionada ao git. Feito o 'git add .'
 
 git reset --soft --mixed --hard --> comando para retornar de um comite feito. funciona de 3 formas diferente
-git reset --sotft (hash do log) -->
+git reset --sotft (hash do log) --> retorna do comite, mas n pode editar os arquivos. (legal para mudar a msg do comite)
+git reset --mixed (hash do log) --> retorna do comite e libera a edição do arquivo.
+git reset --hard (hash do log)  --> volta para o commit anterior e APAGA TUDO referente. Cuidado com esse!
 
 ------------------------------------------------------------------------------
 

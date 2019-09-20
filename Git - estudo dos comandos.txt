@@ -72,4 +72,5 @@ setima alteração
 oitava alteração
 nona alteração
 décima alteração.
+Outras alterações via GitHub
 -------------------

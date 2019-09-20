@@ -36,6 +36,8 @@ git shortlog --> verificar quantos contribuintes existem. Quem e quantos commite
 git shortlog -sn --> Idem, simplifica a saida mostrando apenas a quantidade de commits e o nome do author.
 git log --graph --> mostra em forma grafica as mudanças
 git show (hash que tem dentro do 'got log') --> consegue vê ixatamente qual foi a modificação no arquivo.
+git remote --> mostra os repositórios que estão ligados
+git remote --> Idem, mostra o endereço
 ------------------------------------------------------------------------------
 
 :::::::::::: Comandos mais usados :::::::::::: 

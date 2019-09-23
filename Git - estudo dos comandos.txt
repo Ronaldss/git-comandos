@@ -58,6 +58,7 @@ git reset --sotft (hash do log) --> retorna do comite, mas n pode editar os arqu
 git reset --mixed (hash do log) --> retorna do comite e libera a edição do arquivo.
 git reset --hard (hash do log)  --> volta para o commit anterior e APAGA TUDO referente. Cuidado com esse!
 git rm -f {arquivo} --> Para remover um arquivo do Git e tbm de seu repositório, para vc n ficar vendo ele como untracked
+git clone "SSH caminho" novo_nome --> para fazer uma cópia ou clone do projeto.
 ------------------------------------------------------------------------------
 
 -------------------

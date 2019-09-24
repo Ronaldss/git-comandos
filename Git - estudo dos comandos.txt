@@ -59,6 +59,23 @@ git reset --mixed (hash do log) --> retorna do comite e libera a edição do arq
 git reset --hard (hash do log)  --> volta para o commit anterior e APAGA TUDO referente. Cuidado com esse!
 git rm -f {arquivo} --> Para remover um arquivo do Git e tbm de seu repositório, para vc n ficar vendo ele como untracked
 git clone "SSH caminho" novo_nome --> para fazer uma cópia ou clone do projeto.
+
+git branch nome-nova-branch --> para criar nova branch
+git checkout nome-nova-branch --> alterar visão para nova branch
+
+Obs: estes dois comando acima poderiam ser resulmidos por:
+git checkout -b nome-nova-branch --> altomaticamente cria e ja muda o foco para a nova branch
+
+***PARA ENVIAR A NEW BRANCH P/ O REPOSITÓRIO ORIGINAL DEPOIS DE TER CONCLUIDO AS ALTERAÇÃOES
+git push --set-upstream origin (nome da branch)
+
+*** IMPORTANTE, PARA MANDAR SINCRONIZADOI ENTRE TODOS OS CONTRIBUIDORES
+Verifique antes: git remote -v  (inicialmente só existirá vc mesmo)
+
+Adcionando o dono do repositório: 
+git remote add upstream (link do repositório).git
+
+agora verifique novamente: git remote -v
 ------------------------------------------------------------------------------
 
 -------------------

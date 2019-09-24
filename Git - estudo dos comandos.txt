@@ -60,11 +60,14 @@ git reset --hard (hash do log)  --> volta para o commit anterior e APAGA TUDO re
 git rm -f {arquivo} --> Para remover um arquivo do Git e tbm de seu repositório, para vc n ficar vendo ele como untracked
 git clone "SSH caminho" novo_nome --> para fazer uma cópia ou clone do projeto.
 
+*** Trabalhando com branch ( criando - alternando - apagando )
 git branch nome-nova-branch --> para criar nova branch
 git checkout nome-nova-branch --> alterar visão para nova branch
 
 Obs: estes dois comando acima poderiam ser resulmidos por:
-git checkout -b nome-nova-branch --> altomaticamente cria e ja muda o foco para a nova branch
+git checkout -b nome-nova-branch --> automaticamente cria e ja muda o foco para a nova branch
+
+git branch -D nomeBranch --> para apagar branch
 
 ***PARA ENVIAR A NEW BRANCH P/ O REPOSITÓRIO ORIGINAL DEPOIS DE TER CONCLUIDO AS ALTERAÇÃOES
 git push --set-upstream origin (nome da branch)

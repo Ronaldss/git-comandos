@@ -79,19 +79,20 @@ Adcionando o dono do repositório:
 git remote add upstream (link do repositório).git
 
 agora verifique novamente: git remote -v
-------------------------------------------------------------------------------
 
--------------------
-nenhuma alteração
-primeira alteração
-segundda alteração
-terceira alteração
-quarta alteração
-quinta alteração
-sexta alteração
-setima alteração
-oitava alteração
-nona alteração
-décima alteração.
-Outras alterações via GitHub
--------------------
+===============================================================================================================
+
+>>COMANDOS NECESSÁRIOS APÓS A ALTERAÇÃO DO NOME BRANCH PADRÃO NO GITHUB<< 
+
+Ajuste necessário a partir de Outubro de 2020
+
+#1º Quando criar o projeto diretamente no Github agora virá branch 'main', terá que relacionar com o seu projeto local já previamente criado em sua máquina:
+>>: git remote add origin https://(URL do projeto no Github)
+
+#2º Como foi criado o commit inicial e o arquivo README.md no repositório do Github, será necessário atualizar seu projeto local antes de fazer alterações nele:
+>>: git pull origin main
+
+#3º Adaptar o projeto local para a branch padrão ser o MAIN e não o MASTER
+git checkout -b main
+
+
